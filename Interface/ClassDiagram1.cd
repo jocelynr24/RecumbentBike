@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Interface.CInterface">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Interface.CInterface.UpdateUI" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Interface.CInterface.LoadingState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Interface.CInterface.ProgressTotal" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Interface.CInterface.ProgressCurrent" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>CInterface.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAUQAMAIMKBAkCEIAgGAB5gCAIAQApMEAJowAEBABbI=</HashCode>
+      <FileName>CInterface.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mSerialConnection" />
+      <Field Name="mCSV" />
+      <Field Name="mSerialCommunication" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Interface.CSerialConnection">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAACAAAAAEAAAAAAAAAABIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CSerialConnection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mInterface" />
+      <Field Name="Serial" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Interface.CCSV">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAgAAAAAAEAIAAAAAACAAAEBAQAA=</HashCode>
+      <FileName>CCSV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mInterface" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Interface.CSerialCommunication">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>CAgACAAAMIACAAAAAAhAAJAAQAKAwAJAAAMAgAgAQAA=</HashCode>
+      <FileName>CSerialCommunication.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mInterface" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="System.IO.Ports.SerialPort">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Events" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
